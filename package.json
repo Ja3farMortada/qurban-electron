@@ -1,0 +1,46 @@
+{
+    "name": "qurban",
+    "version": "1.0.3",
+    "description": "Qurban Electron",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron .",
+        "build": "electron-builder --x64"
+    },
+    "build": {
+        "appId": "com.binariez.Ja3farMortada.qurban",
+        "productName": "Qurban",
+        "target": "NSIS",
+        "publish": [
+        {
+            "provider": "github",
+            "owner": "ja3farMortada",
+            "repo": "qurban"
+        }
+        ],
+        "extraResources": [
+        "./server"
+        ],
+        "npmRebuild": "false"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/binariez-team/qurban-electron.git"
+    },
+    "author": "Binariez LLC",
+    "license": "ISC",
+    "dependencies": {
+        "angular": "^1.8.3",
+        "bootstrap": "^5.3.3",
+        "electron-context-menu": "^3.6.1",
+        "electron-log": "^4.4.8",
+        "electron-updater": "^6.1.1",
+        "moment": "^2.29.4",
+        "mysql2": "^3.6.0",
+        "mysqldump": "^3.2.0"
+    },
+    "devDependencies": {
+        "electron": "^30.3.1",
+        "electron-builder": "^24.6.3"
+    }
+}
