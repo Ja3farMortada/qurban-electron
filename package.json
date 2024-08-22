@@ -1,6 +1,6 @@
 {
     "name": "qurban",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Qurban Electron",
     "main": "main.js",
     "scripts": {
