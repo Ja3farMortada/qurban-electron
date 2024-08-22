@@ -15,7 +15,7 @@
         {
             "provider": "github",
             "owner": "ja3farMortada",
-            "repo": "qurban"
+            "repo": "qurban-electron"
         }
         ],
         "extraResources": [
@@ -25,7 +25,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/binariez-team/qurban-electron.git"
+        "url": "https://github.com/ja3farMortada/qurban-electron.git"
     },
     "author": "Binariez LLC",
     "license": "ISC",

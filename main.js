@@ -61,7 +61,7 @@ async function createWindow() {
         if (isDev) {
             win.loadURL("http://localhost:4200");
         } else {
-            win.loadFile("app/index.html");
+            win.loadFile("app/browser/index.html");
         }
     };
 
